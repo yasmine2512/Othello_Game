@@ -11,7 +11,7 @@ A Python implementation of the classic **Othello (Reversi)** board game built wi
 ## 🧠 How to Play
 1. Run the game with:
    ```bash
-   python othello.py
+   python Othello.py
 
 ## 🧩 Requirements
- pip install -r pygame
+   pip install -r pygame
