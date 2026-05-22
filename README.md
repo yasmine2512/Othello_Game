@@ -3,7 +3,7 @@
 A Python implementation of the classic **Othello (Reversi)** board game built with **Pygame**.
 
 ## Screenshot
-<img src="image/Othello.png" width="300"/>
+<img src="Image/Othello.png" width="300"/>
 
 ## 🎮 Features
 - Play **1 vs 1** or **1 vs Computer (AI using Minimax)**.
