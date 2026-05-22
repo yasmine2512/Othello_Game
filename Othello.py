@@ -339,10 +339,11 @@ def player_vs_robot(depth):
                                         result = calc_winner(clicked_cells)       
  
         if color == BLACK:    
-            for (row, col),line_cell in possible_positions.items():
-                cx = MARGIN_X + col * CELL_SIZE + CELL_SIZE // 2
-                cy = MARGIN_Y + row * CELL_SIZE + CELL_SIZE // 2
-                pygame.draw.circle(screen, GRAY_BLACK, (cx, cy), 6)
+            # for (row, col),line_cell in possible_positions.items():
+            #     cx = MARGIN_X + col * CELL_SIZE + CELL_SIZE // 2
+            #     cy = MARGIN_Y + row * CELL_SIZE + CELL_SIZE // 2
+            #     pygame.draw.circle(screen, GRAY_BLACK, (cx, cy), 6)
+            draw_board(clicked_cells,possible_positions,GRAY_BLACK)
 
         pygame.display.flip()
         
